@@ -1,0 +1,62 @@
+.Head{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.Head hr{
+    position: absolute;
+    left: 0;
+    width: 12vw;
+    border: 1px solid #8C1CD1;
+}
+.Head h1{
+    color: white;
+}
+
+.Contact{
+    background-color: #361E46;
+    height: 95vh; 
+    align-items: center;
+}
+.Contact .ContactIcons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Contact .ContactIcons svg path{
+    cursor: pointer;
+}
+.Contact form{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Contact input{
+    width: 80%;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.Contact textarea{
+    width: 80%;
+    height: 150px;
+    margin-top:10px;
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: 2px solid #141313;
+}
+.Contact button{
+    margin-top: 10px;
+    background-color: #141313;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
